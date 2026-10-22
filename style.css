@@ -1,0 +1,49 @@
+/* Center everything on the page */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fdf6ec;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+h1{
+  font-size: 32px;
+  color: #333;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+/* Stack buttons vertically with space */
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Shared button style */
+.btn {
+  width: 120px;
+  height: 60px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s, opacity 0.2s;
+}
+
+/* Colors */
+.plus  { background: #e53935; }
+.minus { background: #fb8c00; }
+.save  { background: #1e88e5; }
+.start { background: yellow;}
+
+.btn:hover  { opacity: 0.85; }
+.btn:active { transform: scale(0.95); }
