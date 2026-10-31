@@ -1,4 +1,4 @@
-/* Center everything on the page */
+e/* Center everything on the page */
 body {
   margin: 0;
   height: 100vh;
@@ -32,7 +32,7 @@ h1{
   height: 60px;
   border: none;
   border-radius: 15px;
-  color: white;
+  color: #eee;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
@@ -40,9 +40,9 @@ h1{
 }
 
 /* Colors */
-.plus  { background: #e53935; }
-.minus { background: #fb8c00; }
-.save  { background: #1e88e5; }
+.plus  { background: #8B5E3C; color: white }
+.minus { background: #eee; color: #333 }
+.save  {  background: #eee; color: #333; width: 255px ; font-size:20px}
 .start { background: yellow;}
 
 .btn:hover  { opacity: 0.85; }
