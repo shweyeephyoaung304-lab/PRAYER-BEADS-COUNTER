@@ -42,7 +42,7 @@ h1{
 /* Colors */
 .plus  { background: #8B5E3C; color: white }
 .minus { background: #eee; color: #333 }
-.save  {  background: #eee; color: #333; width: 255px ; font-size:20px}
+.save  {  background: #eee; color: #333;}
 .start { background: yellow;}
 
 .btn:hover  { opacity: 0.85; }
